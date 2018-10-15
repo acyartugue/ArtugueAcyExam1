@@ -1,0 +1,63 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="bg" parent="Theme.AppCompat.Light.DarkActionBar">
+
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+
+    <style name="img" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="android:layout_width">121dp</item>
+        <item name="android:layout_height">130dp</item>
+        <item name="android:contentDescription">@android:string/paste</item>
+        <item name=" app:srcCompat">@drawable/vinyl</item>
+        <item name="tools:layout_editor_absoluteX">49dp</item>
+        <item name="tools:layout_editor_absoluteY">16dp</item>
+        <item name="android:windowFrame">@color/colorAccent</item>
+    </style>
+
+
+    <style name="txt_main">
+        <item name="android:layout_width">126dp</item>
+        <item name="android:layout_height">62dp</item>
+        <item name="android:textStyle"></item>
+        <item name= "android:layout_marginStart">24dp</item>
+        <item name= "android:text">Vinyl Player X</item>
+        <item name= "android:visibility">visible</item>
+        <item name= "app:layout_constraintStart_toEndOf">@+id/imageView</item>
+        <item name= "tools:layout_editor_absoluteY">16dp</item>
+    </style>
+
+    <style name="btn_main">
+
+    </style>
+
+    <style name="details">
+
+    </style>
+
+    <style name="btn1">
+        <item name=" android:layout_width">wrap_content</item>
+        <item name=" android:layout_height">wrap_content</item>
+        <item name="android:layout_marginEnd">88dp</item>
+        <item name="android:text">Back</item>
+        <item name=" app:layout_constraintEnd_toStartOf">@+id/button4</item>
+        <item name=" tools:layout_editor_absoluteY">427dp</item>
+        <item name="android:color">#005005</item>
+
+    </style>
+
+
+    <style name="btn2">
+        <item name="android:layout_width">wrap_content</item>
+        <item name=" android:layout_height">wrap_content</item>
+        <item name=" android:text">Exit</item>
+        <item name=" tools:layout_editor_absoluteX">226dp</item>
+        <item name=" tools:layout_editor_absoluteY">427dp</item>
+        <item name="android:color">#9b0000</item>
+    </style>
+
+</resources>
