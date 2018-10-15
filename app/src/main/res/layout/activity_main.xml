@@ -32,13 +32,13 @@
     <Button
         android:id="@+id/button"
         style="@style/btn_main"
-        android:layout_width="102dp"
-        android:layout_height="40dp"
+        android:layout_width="111dp"
+        android:layout_height="35dp"
         android:layout_marginTop="28dp"
         android:text="Purchase"
         android:visibility="visible"
         app:layout_constraintTop_toBottomOf="@+id/textView"
-        tools:layout_editor_absoluteX="218dp" />
+        tools:layout_editor_absoluteX="209dp" />
 
     <android.support.constraint.Guideline
         android:id="@+id/guideline"

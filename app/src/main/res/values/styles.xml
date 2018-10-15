@@ -23,16 +23,26 @@
     <style name="txt_main">
         <item name="android:layout_width">126dp</item>
         <item name="android:layout_height">62dp</item>
-        <item name="android:textStyle"></item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">26sp</item>
+        <item name="android:textColor">#003c8f</item>
         <item name= "android:layout_marginStart">24dp</item>
         <item name= "android:text">Vinyl Player X</item>
         <item name= "android:visibility">visible</item>
         <item name= "app:layout_constraintStart_toEndOf">@+id/imageView</item>
         <item name= "tools:layout_editor_absoluteY">16dp</item>
+
     </style>
 
     <style name="btn_main">
-
+        <item name= "android:layout_width">102dp</item>
+        <item name= "android:layout_height">40dp</item>
+        <item name= "android:layout_marginTop">28dp</item>
+        <item name= "android:text">Purchase</item>
+        <item name= "android:textColor">#424242</item>
+       <item name= " android:visibility">visible</item>
+        <item name= "app:layout_constraintTop_toBottomOf">@+id/textView</item>
+        <item name= "tools:layout_editor_absoluteX">218dp</item>
     </style>
 
     <style name="details">
